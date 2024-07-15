@@ -1,0 +1,13 @@
+print("Mad Lib")
+print("Enter answer to the followings prompts")
+guy = input("Name of the man")
+girl = input("Name of the woman")
+time = input("Morning,noon,afternoon,evening,night or midnight?")
+place = input("Where happened the events")
+story = "\nGuy and Girl went to the Place last Time to made a present\n"
+print(story)
+story = story.replace("Guy",guy)
+story = story.replace("Girl",girl)
+story = story.replace("Time",time)
+story = story.replace("Place",place)
+print(story)
